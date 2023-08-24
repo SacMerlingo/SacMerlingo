@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="accueil.css">
+  <script>
+    function scrollImages(cardElement, direction) {
+      var imageElement = cardElement.querySelector('img');
+      var currentIndex = parseInt(imageElement.dataset.index);
+      var images = imageElement.dataset.images.split(',');
+
+      if (direction === 'prev') {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+      } else if (direction === 'next') {
+        currentIndex = (currentIndex + 1) % images.length;
+      }
+
+      imageElement.src = images[currentIndex];
+      imageElement.dataset.index = currentIndex.toString();
+    }
+  </script>
+</head>
+<body>
+<div class="banner">
+  <img src="bandeauSophie.png" alt="bandeau">
+  <img src="bandeauSophie.png" alt="bandeau">
+  <img src="bandeauSophie.png" alt="bandeau">
+  <img src="bandeauSophie.png" alt="bandeau">
+  <img src="bandeauSophie.png" alt="bandeau">
+  <img src="bandeauSophie.png" alt="bandeau">
+  <img src="bandeauSophie.png" alt="bandeau">
+</div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Accueil</a></li>
+        <li class="dropdown">
+        <a href="#" class="dropbtn">Sacs</a>
+        <div class="dropdown-content">
+          <a href="images besaces/besaces.html">Besaces</a>
+          <a href="images cabas/cabas_enduits.html">Cabas</a>
+          <a href="images sacs à main/sacs_a_main.html">Sacs à main</a>
+          <a href="images pochettes/pochettes.html">Pochettes</a>
+          <a href="#">Sacs à gâteaux</a>
+          <a href="#">Panières</a>
+        </div>
+        </li>
+      
+        <li class="right"><a href="#">Prochaines ventes</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="banner2"> 
+  <img src="boutiquev2bis.png" alt="boutique">
+</div>
+<div class="title-container">
+  <div class="nouveautés"> 
+<h1> Les nouveautés Merlingo</h1>
+<div class="container">
+  <div class="background">
+    <div class="container">
+      <div class="card">
+        <img src="sacjean.jpg" alt="sacjean" data-images="sacjean.jpg,sacjeanbis.jpg,sacjeanter.jpg" data-index="0">
+        <div class="dropdown">
+        </div>
+        <div class="prev" onclick="scrollImages(this.parentNode, 'prev')">◀</div>
+        <div class="next" onclick="scrollImages(this.parentNode, 'next')">▶</div>
+      </div>
+      <div class="card">
+        <img src="sacrouge.jpg" alt="sacrouge" data-images="sacrouge.jpg,sacrougebis.jpg,sacrougeter.jpg" data-index="0">
+        <div class="dropdown">
+        </div>
+        <div class="prev" onclick="scrollImages(this.parentNode, 'prev')">◀</div>
+        <div class="next" onclick="scrollImages(this.parentNode, 'next')">▶</div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+  <h2>
+    <p>Autodidacte dans la couture,</p>
+    <p>j’ai toujours attaché beaucoup d’importance à la création manuelle quelque soit le support.</p>
+    <p>La couture est pour moi une source d’apaisement, de plaisir et de satisfaction.</p>
+    <p>J’aime jouer avec des matières différentes tout en associant les couleurs et les motifs.</p>
+    <p>Chaque sac que je fabrique est toujours fait dans l’esprit de l’offrir à une amie.</p>
+  </h2>
+  
+</div>
+</div>
+
