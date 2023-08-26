@@ -59,6 +59,7 @@ h2 {
   border-radius: 5px;
 }
 
+
 .prev,
 .next {
   background-color: #ccc;
@@ -72,6 +73,7 @@ h2 {
   position: absolute;
   top: 180px;
 }
+
 
 .prev:hover,
 .next:hover {
@@ -262,31 +264,6 @@ footer {
   color: rgb(35, 35, 37);
 }
 
-
-.prev,
-.next {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: #ccc;
-  color: #fff;
-  padding: 5px 10px;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 16px;
-  opacity: 0.8;
-  transition: opacity 0.3s ease;
-}
-
-.prev {
-  left: -15px; /* Adjust this value */
-}
-
-.next {
-  right: -15px; /* Adjust this value */
-}
-.card {
-  margin: 25px;
-  padding: 7px;
-  position: relative; /* Add this line */
-}
+.image-container {
+  position: relative; /* Create a new positioning context */
+} 
