@@ -59,9 +59,6 @@ h2 {
 
 .prev,
 .next {
-  position: absolute;
-  top: 180px;
-  transform: translateY(-50%);
   background-color: #ccc;
   color: #fff;
   padding: 5px 10px;
@@ -70,6 +67,8 @@ h2 {
   font-size: 16px;
   opacity: 0.8;
   transition: opacity 0.3s ease;
+  position: absolute;
+  top: 180px;
 }
 
 .prev:hover,
