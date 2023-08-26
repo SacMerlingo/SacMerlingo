@@ -4,6 +4,19 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
+  var preloadImages = [
+    'cabas_de_ville1.jpg',
+    'cabas_de_ville1bis.jpg',
+    'cabas_de_ville3.jpg',
+    'cabas_de_ville3bis.jpg',
+    'cabas_de_ville2.jpg',
+    'cabas_de_ville2bis.jpg',
+    'cabas_de_ville4.jpg',
+    'cabas_de_ville4bis.jpg'
+  ];
+</script>
+
+  <script>
     function scrollImages(cardElement, direction) {
       var imageElement = cardElement.querySelector('img');
       var currentIndex = parseInt(imageElement.dataset.index);
