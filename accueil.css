@@ -60,7 +60,7 @@ h2 {
 .prev,
 .next {
   position: absolute;
-  top: 50%;
+  top: 180px;
   transform: translateY(-50%);
   background-color: #ccc;
   color: #fff;
