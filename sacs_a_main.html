@@ -4,6 +4,22 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
+        var preloadedImages = [];
+
+    function preloadImages() {
+      var cardElements = document.querySelectorAll('.card img');
+      cardElements.forEach(function(imageElement) {
+        var images = imageElement.dataset.images.split(',');
+        images.forEach(function(imageSrc) {
+          var img = new Image();
+          img.src = imageSrc;
+          preloadedImages.push(img);
+        });
+      });
+    }
+
+    // Appelez cette fonction lorsque la page est chargée
+    window.addEventListener('load', preloadImages);
     function scrollImages(cardElement, direction) {
       var imageElement = cardElement.querySelector('img');
       var currentIndex = parseInt(imageElement.dataset.index);
