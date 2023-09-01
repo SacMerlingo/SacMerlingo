@@ -4,6 +4,22 @@
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <script>
+        var preloadedImages = [];
+
+    function preloadImages() {
+      var cardElements = document.querySelectorAll('.card img');
+      cardElements.forEach(function(imageElement) {
+        var images = imageElement.dataset.images.split(',');
+        images.forEach(function(imageSrc) {
+          var img = new Image();
+          img.src = imageSrc;
+          preloadedImages.push(img);
+        });
+      });
+    }
+
+    // Appelez cette fonction lorsque la page est chargée
+    window.addEventListener('load', preloadImages);
     function scrollImages(cardElement, direction) {
       var imageElement = cardElement.querySelector('img');
       var currentIndex = parseInt(imageElement.dataset.index);
@@ -22,16 +38,16 @@
 </head>
 <body>
   <div class="banner">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie.png" alt="bandeau">
-    <img src="bandeauSophie2.png" alt="bandeau">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie.png" alt="bandeau" loading="lazy">
+    <img src="bandeauSophie2.png" alt="bandeau" loading="lazy">
   </div>
  <header>
     <nav>
@@ -66,34 +82,34 @@
   <div class="background">
   <div class="container">
     <div class="card">
-      <img src="cabas_simili1ter.jpg" alt="cabas 1" data-images="cabas_simili1ter.jpg,cabas_simili1bis.png" data-index="0">
+      <img src="cabas_simili1ter.jpg" alt="cabas 1" data-images="cabas_simili1ter.jpg,cabas_simili1bis.png" data-index="1" loading="lazy">
       <div class="dropdown">
       </div>
       <div class="prev" onclick="scrollImages(this.parentNode, 'prev')">◀</div>
       <div class="next" onclick="scrollImages(this.parentNode, 'next')">▶</div>
     </div>
     <div class="card">
-      <img src="cabas_simili2.png" alt="cabas 2" data-images="cabas_simili2.png,cabas_simili2bis.png" data-index="0">
+      <img src="cabas_simili2.png" alt="cabas 2" data-images="cabas_simili2.png,cabas_simili2bis.png" data-index="1" loading="lazy">
       <div class="dropdown">
       </div>
       <div class="prev" onclick="scrollImages(this.parentNode, 'prev')">◀</div>
       <div class="next" onclick="scrollImages(this.parentNode, 'next')">▶</div>
     </div>
     <div class="card">
-      <img src="cabas_simili4.jpg" alt="cabas4">
+      <img src="cabas_simili4.jpg" alt="cabas4" loading="lazy">
     </div>
     <div class="card">
-      <img src="cabas_simili3bis.jpg" alt="cabas3">
+      <img src="cabas_simili3bis.jpg" alt="cabas3" loading="lazy">
     </div>
     <div class="card">
-      <img src="cabas_simili5.jpg" alt="cabas 5" data-images="cabas_simili5.jpg,cabas_simili5bis.jpg" data-index="0">
+      <img src="cabas_simili5.jpg" alt="cabas 5" data-images="cabas_simili5.jpg,cabas_simili5bis.jpg" data-index="1" loading="lazy">
       <div class="dropdown">
       </div>
       <div class="prev" onclick="scrollImages(this.parentNode, 'prev')">◀</div>
       <div class="next" onclick="scrollImages(this.parentNode, 'next')">▶</div>
     </div>
     <div class="card">
-      <img src="cabas_simili6.jpg" alt="cabas 6" data-images="cabas_simili6.jpg,cabas_simili6bis.jpg" data-index="0">
+      <img src="cabas_simili6.jpg" alt="cabas 6" data-images="cabas_simili6.jpg,cabas_simili6bis.jpg" data-index="1" loading="lazy">
       <div class="dropdown">
       </div>
       <div class="prev" onclick="scrollImages(this.parentNode, 'prev')">◀</div>
