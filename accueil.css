@@ -267,3 +267,39 @@ footer {
 .image-container {
   position: relative; /* Create a new positioning context */
 } 
+
+
+    .dropdown {
+      position: relative; /* Utilisez une position relative sur l'élément parent */
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute; /* Utilisez une position absolue sur le menu déroulant */
+      background-color: #43917b;
+      width: 120px;
+      height: 150px;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      border-radius: 0px 0px 4px 4px;
+      margin-left: -15px;
+      top: 100%; /* Placez le menu déroulant sous l'élément parent */
+      left: 0; /* Ajustez la position horizontale selon vos besoins */
+    }
+    
+    .sub-dropdown {
+      position: relative; /* Utilisez une position relative sur le sous-menu déroulant */
+      display: inline-block;
+    }
+    
+    .sub-dropdown-content {
+      display: none;
+      position: absolute; /* Utilisez une position absolue sur le sous-menu déroulant */
+      background-color: #43917b;
+      width: 140px;
+      border-radius: 0px 4px 4px 4px;
+      margin-left: 50px; /* Ajustez la position horizontale selon vos besoins */
+      margin-top: -5px;
+      top: 0; /* Placez le sous-menu déroulant à la même hauteur que l'élément parent */
+      left: 100%; /* Placez le sous-menu déroulant à droite de l'élément parent */
+    }
