@@ -293,8 +293,8 @@ max-width: 100vw;
       background-color: #43917b;
       width: 140px;
       border-radius: 0px 4px 4px 4px;
-      margin-left: 50px; /* Ajustez la position horizontale selon vos besoins */
-      margin-top: -5px;
+      margin-left: 0; /* Ajustez la position horizontale selon vos besoins */
+      margin-top: 0px;
       top: 0; /* Placez le sous-menu déroulant à la même hauteur que l'élément parent */
       left: 100%; /* Placez le sous-menu déroulant à droite de l'élément parent */
     }
