@@ -15,10 +15,8 @@ h1 {
   font-weight: bolder;
   color: #43917b;
   position: absolute;
-  top: 10;
   right: 0 ;
-  margin-right: 11.5vw;
-  transform: none;
+  margin-right: 21vw;
 }
 
 h2 {
@@ -264,9 +262,6 @@ footer {
   color: rgb(35, 35, 37);
 }
 
-.image-container {
-  position: relative; /* Create a new positioning context */
-} 
 
 
     .dropdown {
@@ -303,3 +298,64 @@ footer {
       top: 0; /* Placez le sous-menu déroulant à la même hauteur que l'élément parent */
       left: 100%; /* Placez le sous-menu déroulant à droite de l'élément parent */
     }
+
+        /* Ajoutez ces styles CSS */
+        .container {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          margin-top: 20px; /* Augmentez la marge supérieure */
+          margin-bottom: 50px;
+        }
+    
+        h2 {
+          flex: 1;
+          font-family: 'HiMelody';
+          font-size: 24px; /* Réduisez la taille de la police */
+          color: #43917b;
+          margin-left: 15px;
+        }
+    
+        .background {
+          display: flex;
+          justify-content: flex-start; /* Augmentez la largeur */
+          flex: 1; /* Ajustez la largeur */
+        }
+    
+        .card {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          margin: 25px;
+          padding: 7px;
+          position: relative;
+          width: 350px; /* Ajustez la largeur des cartes */
+        }
+
+        .content-container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          transform-origin: center;
+          transform: scale(1); /* Ajustez la valeur de l'échelle en fonction de vos besoins */
+        }
+        
+        .text-container {
+          flex: 1;
+        }
+        
+        .image-container {
+          display: flex;
+          flex-direction:  row-reverse; /* Aligner les images à côté du texte */
+          align-items: center;
+          margin-bottom: 10vw;
+        }
+        
+        .card {
+          margin: 10px; /* Ajustez la marge entre les cartes selon vos besoins */
+        }
+          
+        .card img {
+          max-width: 100%; /* Permet aux images de se redimensionner correctement lors du zoom */
+          height: auto;
+        }
