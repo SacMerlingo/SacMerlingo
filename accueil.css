@@ -17,6 +17,7 @@ h1 {
   position: absolute;
   right: 0 ;
   margin-right: 21vw;
+  margin-top: 100px;
 }
 
 h2 {
@@ -359,3 +360,40 @@ footer {
           max-width: 100%; /* Permet aux images de se redimensionner correctement lors du zoom */
           height: auto;
         }
+        
+        .dropdown-content {
+          display: none;
+          position: absolute;
+          background-color: #43917b;
+          width: 120px;
+          height: 150px;
+          box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+          border-radius: 0px 0px 4px 4px;
+          margin-left: -15px;
+          top: 100%; /* Placez le menu déroulant sous l'élément parent */
+          left: 0; /* Ajustez la position horizontale selon vos besoins */
+        }
+        
+        /* Modifier cette partie pour que le sous-menu apparaisse également lorsque vous survolez "Cabas de ville" */
+        .dropdown:hover .dropdown-content,
+        .sub-dropdown:hover .dropdown-content {
+          display: block;
+        }
+        
+        .sub-dropdown-content {
+          display: none;
+          position: absolute; /* Utilisez une position absolue sur le sous-menu déroulant */
+          background-color: #43917b;
+          width: 140px;
+          border-radius: 0px 4px 4px 4px;
+          margin-left:0; /* Ajustez la position horizontale selon vos besoins */
+          margin-top: 0px;
+          top: 0; /* Placez le sous-menu déroulant à la même hauteur que l'élément parent */
+          left: 100%; /* Placez le sous-menu déroulant à droite de l'élément parent */
+        }
+        
+        /* Ajoutez cette partie pour que le sous-menu "Cabas de ville" apparaisse lorsque vous survolez "Cabas" */
+        .sub-dropdown:hover .sub-dropdown-content {
+          display: block;
+        }
+        
