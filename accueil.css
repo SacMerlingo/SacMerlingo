@@ -1,4 +1,4 @@
-b@font-face {
+@font-face {
   font-family: 'HiMelody';
   src: url('AveriaLibre-Regular.ttf') format('truetype')
 }
@@ -397,5 +397,10 @@ footer {
         /* Ajoutez cette partie pour que le sous-menu "Cabas de ville" apparaisse lorsque vous survolez "Cabas" */
         .sub-dropdown:hover .sub-dropdown-content {
           display: block;
+        }
+
+        .small-image {
+          max-width: 200px; /* Ajustez la largeur maximale selon vos besoins */
+          height: auto; /* Permet à la hauteur de s'ajuster automatiquement en conservant les proportions */
         }
         
