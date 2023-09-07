@@ -216,8 +216,8 @@ align-items: center;
 .banner2 {
   display: flex;
   justify-content: center;
-  width: 1%;
-  margin-left: 50%;
+  width: 10%;
+  margin-left: 45%;
 }
 
 .banner img{
@@ -398,9 +398,3 @@ footer {
         .sub-dropdown:hover .sub-dropdown-content {
           display: block;
         }
-
-        .small-image {
-          max-width: 200px; /* Ajustez la largeur maximale selon vos besoins */
-          height: auto; /* Permet à la hauteur de s'ajuster automatiquement en conservant les proportions */
-        }
-        
