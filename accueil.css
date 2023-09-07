@@ -364,7 +364,7 @@ footer {
         .dropdown-content {
           display: none;
           position: absolute;
-          background-color: #43917b;
+          background-color: rgb(231,45,118);
           width: 120px;
           height: 150px;
           box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
@@ -383,7 +383,7 @@ footer {
         .sub-dropdown-content {
           display: none;
           position: absolute; /* Utilisez une position absolue sur le sous-menu déroulant */
-          background-color: #43917b;
+          background-color: rgb(231,45,118);
           width: 140px;
           border-radius: 0px 4px 4px 4px;
           margin-left:0; /* Ajustez la position horizontale selon vos besoins */
