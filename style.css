@@ -231,7 +231,7 @@ h3 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100vw; /* Définissez la largeur à 100% pour qu'il couvre toute la largeur de l'écran */
+  width: 98vw; /* Définissez la largeur à 100% pour qu'il couvre toute la largeur de l'écran */
   height:7vw; /* Réglez la hauteur de votre bandeau selon vos besoins */
 }
 
