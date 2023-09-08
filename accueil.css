@@ -209,8 +209,12 @@ align-items: center;
 
 
 .banner {
-  display: flex;
-  overflow-x: hidden; /* Pour éviter le défilement horizontal */
+    background-image: url('bandeauSophie.png'); /* Remplacez 'votre-image.jpg' par le chemin de votre image de fond */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw; /* Définissez la largeur à 100% pour qu'il couvre toute la largeur de l'écran */
+  height:7vw; /* Réglez la hauteur de votre bandeau selon vos besoins */
 }
 
 .banner2 {
