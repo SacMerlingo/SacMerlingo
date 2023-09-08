@@ -263,6 +263,7 @@ footer {
   font-weight: bold;
   font-family: 'HiMelody';
   transform: scale(1.7);
+  margin-right: 150px;
 }
 
 .footer-content a:hover {
