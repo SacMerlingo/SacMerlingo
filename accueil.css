@@ -193,12 +193,12 @@ line-height: 0.03;
 header ul li:nth-child(1) a:hover,
 header ul li:nth-child(3) a:hover,
 header ul li:nth-child(4) a:hover {
-  color: rgb(5, 15, 66)
+  color: rgb(246, 151, 68);
 }
 
 .dropdown:hover .dropbtn,
 .dropdown-content a:hover {
-  color: rgb(5, 15, 66);
+  rgb(246, 151, 68);
 }
 
 .center {
@@ -267,7 +267,7 @@ footer {
 }
 
 .footer-content a:hover {
-  color: rgb(35, 35, 37);
+  color: rgb(246, 151, 68);
 }
 
 
