@@ -23,9 +23,10 @@ h1 {
 h2 {
   flex: 1;
   font-family: 'HiMelody';
-  font-size: 28px;
+  font-size:30px;
   color: rgb(231,45,118);
   margin-left: 15px;
+  line-height: 1vw;
 }
 
 
