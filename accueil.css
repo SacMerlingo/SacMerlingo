@@ -24,6 +24,7 @@ h2 {
   flex: 1;
   font-family: 'HiMelody';
   font-size:30px;
+   font-weight: bolder;
   color: rgb(231,45,118);
   margin-left: 15px;
   line-height: 1vw;
