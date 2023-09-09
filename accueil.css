@@ -328,14 +328,7 @@ footer {
           margin-top: 20px; /* Augmentez la marge supérieure */
           margin-bottom: 50px;
         }
-    
-        h2 {
-          flex: 1;
-          font-family: 'HiMelody';
-          font-size: 24px; /* Réduisez la taille de la police */
-          color: rgb(231,45,118);
-          margin-left: 15px;
-        }
+
     
         .background {
           display: flex;
