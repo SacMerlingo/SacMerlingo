@@ -200,10 +200,10 @@ align-items: center;
   height:7vw; /* Réglez la hauteur de votre bandeau selon vos besoins */
 }
 
-.banner2 {
-  display: flex;
-  justify-content: center;
-}
+  .banner2 {
+    display: flex;
+    margin-left: 1em;
+  }
 
 .banner img{
 width: auto;
