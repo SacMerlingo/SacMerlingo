@@ -19,25 +19,14 @@ body {
     margin-left: 25em;
   }
 
-h2 {
-  flex: 1;
-  font-family: 'HiMelody';
-  font-size:2em;
-   font-weight: bolder;
-  color: rgb(231,45,118);
-  margin-left: 15px;
-  line-height: 1.1;
-}
-
-
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin-top: 50px;
-  margin-bottom: 50px;
-}
-
+  h2 {
+    font-family: 'HiMelody';
+    font-size: 2em;
+    color:rgb(231,45,118);
+    font-weight: bolder;      
+    margin-left: 8em;
+    margin-top: -9em;
+  }
 
 .background {
   display: flex;
@@ -51,14 +40,6 @@ h2 {
   padding: 7px;
   position: relative;
 }
-.card img {
-  width: 300px;
-  height: 400px;
-  object-fit: cover;
-  margin-bottom: -5px;
-  border-radius: 5px;
-}
-
 
 .prev,
 .next {
