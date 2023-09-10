@@ -8,17 +8,16 @@ body {
   background-color: rgb(252, 238, 214);
 }
 
-h1 {
-  align-self: flex-end;
-  font-family: 'HiMelody';
-  font-size: 2em;
-  font-weight: bolder;
-  color: rgb(231,45,118);
-  position: absolute;
-  right: 0 ;
-  margin-right: 21vw;
-  margin-top: 100px;
-}
+  h1 {
+    align-self: flex-end;
+    font-family: 'HiMelody';
+    font-size: 2em;
+    font-weight: bolder;
+    color: rgb(231,45,118);
+    position: absolute;
+    margin-top: -2em;
+    margin-left: 25em;
+  }
 
 h2 {
   flex: 1;
