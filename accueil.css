@@ -336,13 +336,10 @@ footer {
           flex: 1;
         }
         
-        .image-container {
-          display: flex;
-          flex-direction:  row-reverse; /* Aligner les images à côté du texte */
-          align-items: center;
-          margin-bottom: 10vw;
-        }
-        
+    .image-container {
+            display: flex;  
+            margin-left: 25em;
+          }
         .card {
           margin: 10px; /* Ajustez la marge entre les cartes selon vos besoins */
         }
