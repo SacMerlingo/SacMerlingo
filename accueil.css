@@ -328,10 +328,9 @@ footer {
         .text-container {
           flex: 1;
         }
-        
-    .image-container {
-            display: flex;  
-            margin-left: 25em;
+          .image-container {
+            display: flex;
+            justify-content: center;
           }
         .card {
           margin: 10px; /* Ajustez la marge entre les cartes selon vos besoins */
