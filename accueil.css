@@ -2,6 +2,12 @@
   font-family: 'HiMelody';
   src: url('AveriaLibre-Regular.ttf') format('truetype')
 }
+
+  @font-face {
+    font-family: 'YsabeauInfant';
+    src: url('YsabeauInfant.ttf') format('truetype')
+  }
+
 body {
   margin: 0;
   padding: 0;
@@ -16,7 +22,7 @@ body {
   }
 
   h2 {
-    font-family: 'HiMelody';
+    font-family: 'YsabeauInfant';
     font-size: 25px ;
     color:rgb(85, 85, 85);    
     margin-left: 13em;
