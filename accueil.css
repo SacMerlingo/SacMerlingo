@@ -16,9 +16,10 @@ body {
 
   h1 {
     font-family: 'HiMelody';
-    font-size: 2em;
+    font-size: 11px;
     color:  rgb(231,45,118) ;
     margin-bottom: -0.5em;
+        font-weight: bold;
     
   }
 
