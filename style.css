@@ -3,6 +3,11 @@
       src: url('AveriaLibre-Regular.ttf') format('truetype')
     }
 
+
+  @font-face {
+    font-family: 'YsabeauInfant';
+    src: url('YsabeauInfant.ttf') format('truetype')
+  }
     body {
       margin: 0;
       padding: 0;
