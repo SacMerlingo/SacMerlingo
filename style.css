@@ -16,8 +16,9 @@
 
     h1 {
     font-family: 'HiMelody';
+        font-weight: bold;
     text-align: center;
-    font-size: 2em;
+    font-size: 11px;
     color:  rgb(231,45,118) ;
   }
 
