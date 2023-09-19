@@ -20,18 +20,38 @@ body {
     color:  rgb(231,45,118) ;
     margin-bottom: -0.5em;
         font-weight: bold;
-          margin-top: -3.5em;
+      margin-top: -3.5em;
     
   }
 
-  h2 {
-    font-family: 'YsabeauInfant';
-    font-size: 25px ;
-    color:rgb(85, 85, 85);    
-    margin-left: 13em;
-    margin-top: -12em;
-  }
+    h2 {
+      font-family: 'YsabeauInfant';
+      font-size: 25px ;
+      color:rgb(85, 85, 85);    
+      margin-left: 13em;
+      margin-top: -10em;
+    }
 
+    .titre {
+      margin-bottom: -1em;
+
+    }
+
+    .ligne1 {
+      margin-bottom: -1em;
+    }
+    
+    .ligne2 {
+      margin-bottom: -1em;
+    }
+    
+    .ligne3 {
+      margin-bottom: -1em;
+    }
+    
+    .ligne4 {
+      margin-bottom:6em;
+    }
 
 .background {
   display: flex;
