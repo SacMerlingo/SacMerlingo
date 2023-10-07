@@ -62,6 +62,13 @@ h3 {
       color: rgb(231,45,118);
   }
 
+h6 {
+  font-family: 'HiMelody';
+      font-weight: bold;
+  font-size: 25px;
+  color:  rgb(231,45,118) ;
+  }
+
     .container {
       display: flex;
       flex-wrap: wrap;
