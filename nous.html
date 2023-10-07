@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="nous.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <script>
+        // Préchargez toutes les images au chargement de la page
+    var preloadedImages = [];
+
+    function preloadImages() {
+      var cardElements = document.querySelectorAll('.card img');
+      cardElements.forEach(function(imageElement) {
+        var images = imageElement.dataset.images.split(',');
+        images.forEach(function(imageSrc) {
+          var img = new Image();
+          img.src = imageSrc;
+          preloadedImages.push(img);
+        });
+      });
+    }
+    // Appelez cette fonction lorsque la page est chargée
+    window.addEventListener('load', preloadImages);
+    function scrollImages(cardElement, direction) {
+      var imageElement = cardElement.querySelector('img');
+      var currentIndex = parseInt(imageElement.dataset.index);
+      var images = imageElement.dataset.images.split(',');
+
+      if (direction === 'prev') {
+        currentIndex = (currentIndex - 1 + images.length) % images.length;
+      } else if (direction === 'next') {
+        currentIndex = (currentIndex + 1) % images.length;
+      }
+
+      imageElement.src = images[currentIndex];
+      imageElement.dataset.index = currentIndex.toString();
+    }
+  </script>
+</head>
+<body>
+<div class="banner">
+</div>
+<header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Sacs</a>
+          <div class="dropdown-content">
+            <a href="besaces.html">Besaces Flow</a>
+            <a href="sacs_a_main.html">Sacs à main</a>
+            <a href="pochettes.html">Pochettes</a>
+            <a href="panieres.html">Panières</a>
+            <a href="sacs_a_gateaux.html">Sacs à gâteaux</a>
+          <div class="sub-dropdown">
+            <a href="#">Cabas</a>
+            <div class="sub-dropdown-content">
+                <a href="cabas_de_ville.html">Cabas de ville</a>
+                <a href="cabas_enduits.html">Cabas enduits</a>
+                <a href="cabas_simili.html">Cabas simili</a>
+                <a href="cabas_tissu.html">Cabas tissu</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li><a href="trousses.html">Trousses</a></li>
+        <li><a href="prochaines_ventes.html">Prochaines ventes</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1>Qui sommes-nous?</h1>
+<div class="banner2"> 
+  <img src="sophie.png" alt="Sophie" data-index="0"style="width: 15em; height: 15em; margin-top : 3px">
+</div>
+<h2>
+<p class="titre">Autodidacte dans la couture, j’ai toujours attaché beaucoup d’importance à la création manuelle quelque soit le support.</p>
+<p class="ligne2">La couture est pour moi une source d’apaisement, de plaisir et de satisfaction.</p>
+<p class="ligne3">J’aime jouer avec des matières différentes tout en associant les couleurs et les motifs.</p>
+<p class="ligne4">Chaque sac que je fabrique est toujours fait dans l’esprit de l’offrir à une amie.</p>
+
+</h2>
+ <footer>
+    <div class="footer-content">
+      <a href="https://www.instagram.com/sac.merlingo/">
+        <img src="insta.png" alt="Instagram" style="width: 15px; height: 15px; margin-top : 3px">
+      </a>
+      <a href="contact.html">Me contacter</a>
+      <a href="nous.html">Qui sommes-nous?</a>
+    </div>
+  </footer>
+</body>
+</html>
