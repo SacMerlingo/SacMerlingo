@@ -14,7 +14,7 @@
   h1 {
     align-self: flex-end;
     font-family: 'HiMelody';
-    font-size: 2em;
+    font-size: 25px;
     font-weight: bolder;
     color: rgb(231,45,118);
     right: 0 ;
@@ -24,7 +24,7 @@
   h2 {
     flex: 1;
     font-family: 'HiMelody';
-    font-size: 2em;
+    font-size: 25px;
     color:rgb(231,45,118);
     font-weight: bolder;      
     margin-left: 15px;
