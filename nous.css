@@ -240,45 +240,40 @@ margin-left: 70px;
 .banner2 img:last-child {
 margin-right: 70px;
 }
-
-footer {
-  background-color: rgb(231,45,118);
-  padding: 8px;
-  position: fixed;
-  bottom: 0; 
-  left: 0;
-  right: 0; 
-}
-
-    footer {
-      background-color: rgb(231,45,118);
-      padding: 8px;
+  footer {
+    background-color: rgb(231,45,118);
+    padding: 8px;
       position: fixed;
-      bottom: 0; 
-      left: 0;
-      right: 0; 
+    bottom: 0; 
+    left: 0;
+    right: 0; 
+  }
+
+  .footer-content {
+    display: flex;
+
+  }
+
+  .footer-content a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-family: 'HiMelody';
+    transform: scale(1.7);
+    
+  }
+
+  .footer-content a:first-child {
+    margin-right:30vw;
+    margin-left: 1vw;
     }
+    .footer-content a:nth-child(2) {
+      margin-right:30vw;
+      }
 
-.footer-content {
-  display: flex;
-  justify-content: flex-end; /* To push "Me contacter" to the right */
-  align-items: center; /* To vertically align the content */
-}
-
-    .footer-content a {
-      text-decoration: none;
-      color: rgb(252, 238, 214);
-      font-weight: bold;
-      font-family: 'HiMelody';
-      transform: scale(1.7);
-        margin-right: 150px;
-    }
-  
-    .footer-content a:hover {
-      color: rgb(246, 151, 68);
-    }
-
-
+  .footer-content a:hover {
+    color: rgb(35, 35, 37);
+  }
 
     .dropdown {
       position: relative; /* Utilisez une position relative sur l'élément parent */
