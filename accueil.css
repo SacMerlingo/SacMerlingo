@@ -14,7 +14,7 @@
   h1 {
     align-self: flex-end;
     font-family: 'HiMelody';
-    font-size: 25px;
+    font-size: 40px;
     font-weight: bolder;
     color: rgb(231,45,118);
     right: 0 ;
@@ -30,36 +30,26 @@
     margin-left: 15px;
   }
 
-  h3 {
-    text-align: center;
-    font-family: 'HiMelody';
-    font-size: 35px;
-    font-weight: bolder;
-    color: rgb(231,45,118);
-}
-
   .ventes {
     margin-bottom: 80px;
   }
 
-  h4 
-  {
-    font-family: 'HiMelody';
-    font-size: 28px;
-    color:rgb(231,45,118);
-    margin-bottom: 80px;
+  h4 {
+    font-family: 'YsabeauInfant';
+      font-size: 25px;
+    color:rgb(85, 85, 85);
+      margin-bottom: 40px;
+      text-align: center;
+    }
+    
+    h5 {
+    font-family: 'YsabeauInfant';
+      font-size: 25px;
+    color:rgb(85, 85, 85);
     text-align: center;
-  }
-
-h5 {
-font-family: 'HiMelody';
-font-size: 28px;
-color: rgb(231,45,118);
-text-align: center;
-line-height: 14px; /* Ajustez le line-height pour éviter le chevauchement */
-margin-bottom: 40px; /* Ajustez la marge inférieure */
-}
-
+    line-height: 14px; /* Ajustez le line-height pour éviter le chevauchement */
+    margin-bottom: 40px; /* Ajustez la marge inférieure */
+    }
   h6 {
     font-family: 'HiMelody';
     font-size: 28px;
@@ -90,11 +80,9 @@ margin-bottom: 40px; /* Ajustez la marge inférieure */
     align-items: center; /* Center content horizontally */
     margin: 25px;
     padding: 7px;
-    position: relative;
+
   }
   .card img {
-    width:  40vw;
-    height: ;
     object-fit: cover;
     margin-bottom: -5px;
     border-radius: 5px;
@@ -290,7 +278,7 @@ margin-bottom: 40px; /* Ajustez la marge inférieure */
   footer {
     background-color: rgb(231,45,118);
     padding: 8px;
-    position: fixed;
+      position: fixed;
     bottom: 0; 
     left: 0;
     right: 0; 
@@ -298,8 +286,7 @@ margin-bottom: 40px; /* Ajustez la marge inférieure */
 
   .footer-content {
     display: flex;
-    justify-content: flex-end; /* To push "Me contacter" to the right */
-    align-items: center; /* To vertically align the content */
+
   }
 
   .footer-content a {
@@ -308,9 +295,16 @@ margin-bottom: 40px; /* Ajustez la marge inférieure */
     font-weight: bold;
     font-family: 'HiMelody';
     transform: scale(1.7);
-    margin-right: 100px;
-
+    
   }
+
+  .footer-content a:first-child {
+    margin-right:30vw;
+    margin-left: 1vw;
+    }
+    .footer-content a:nth-child(2) {
+      margin-right:30vw;
+      }
 
   .footer-content a:hover {
     color: rgb(35, 35, 37);
@@ -392,8 +386,8 @@ margin-bottom: 40px; /* Ajustez la marge inférieure */
           .image-container {
             display: flex;
             flex-direction:  row-reverse; /* Aligner les images à côté du texte */
-            align-items: center;
-            margin-bottom: 10vw;
+            align-items: center;  
+            justify-content: center;
           }
           
           .card {
