@@ -306,10 +306,8 @@
       }
 
   .footer-content a:hover {
-    color: rgb(35, 35, 37);
+    color: rgb(246, 151, 68);
   }
-
-
 
       .dropdown {
         position: relative; /* Utilisez une position relative sur l'élément parent */
