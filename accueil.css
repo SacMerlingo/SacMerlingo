@@ -2,7 +2,7 @@
             
 
   @font-face {
-    font-family: 'HiMelody';
+    font-family: 'YsabeauInfant';
     src: url('AveriaLibre-Regular.ttf') format('truetype')
   }
   body {
@@ -13,7 +13,7 @@
 
   h1 {
     align-self: flex-end;
-    font-family: 'HiMelody';
+    font-family: 'YsabeauInfant';
     font-size: 25px;
     font-weight: bolder;
     color: rgb(231,45,118);
@@ -23,7 +23,7 @@
 
   h2 {
     flex: 1;
-    font-family: 'HiMelody';
+    font-family: 'YsabeauInfant';
     font-size: 25px;
     color:rgb(231,45,118);
     font-weight: bolder;      
@@ -50,7 +50,7 @@
     margin-bottom: 40px; /* Ajustez la marge inférieure */
     }
   h6 {
-    font-family: 'HiMelody';
+    font-family: 'YsabeauInfant';
     font-size: 28px;
     color: #43917b;
     text-align: right;
@@ -122,7 +122,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-family: 'HiMelody';
+    font-family: 'YsabeauInfant';
     font-weight: bold;
     font-size: 11px;
     margin-bottom: 50px;
@@ -292,7 +292,7 @@
     text-decoration: none;
     color: rgb(252, 238, 214);
     font-weight: bold;
-    font-family: 'HiMelody';
+    font-family: 'YsabeauInfant';
     transform: scale(1.7);
     
   }
