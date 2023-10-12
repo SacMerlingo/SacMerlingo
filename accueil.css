@@ -414,19 +414,6 @@
           .sub-dropdown:hover .dropdown-content {
             display: block;
           }
-          
-          .sub-dropdown-content {
-            display: none;
-            position: absolute; /* Utilisez une position absolue sur le sous-menu déroulant */
-            background-color: #43917b;
-            width: 140px;
-            border-radius: 0px 4px 4px 4px;
-            margin-left:0; /* Ajustez la position horizontale selon vos besoins */
-            margin-top: -0px;
-            top: 0; /* Placez le sous-menu déroulant à la même hauteur que l'élément parent */
-            left: 100%; /* Placez le sous-menu déroulant à droite de l'élément parent */
-          }
-          
           /* Ajoutez cette partie pour que le sous-menu "Cabas de ville" apparaisse lorsque vous survolez "Cabas" */
           .sub-dropdown:hover .sub-dropdown-content {
             display: block;
