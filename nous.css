@@ -240,7 +240,7 @@ margin-left: 70px;
 .banner2 img:last-child {
 margin-right: 70px;
 }
-  footer {
+   footer {
     background-color: rgb(231,45,118);
     padding: 8px;
       position: fixed;
@@ -272,7 +272,7 @@ margin-right: 70px;
       }
 
   .footer-content a:hover {
-    color: rgb(35, 35, 37);
+    color: rgb(246, 151, 68);
   }
 
     .dropdown {
