@@ -253,7 +253,7 @@ width: auto;
 height: 100px;
 max-width: 100vw; 
 }
-  footer {
+   footer {
     background-color: rgb(231,45,118);
     padding: 8px;
       position: fixed;
@@ -285,9 +285,8 @@ max-width: 100vw;
       }
 
   .footer-content a:hover {
-    color: rgb(35, 35, 37);
+    color: rgb(246, 151, 68);
   }
-
 
 
     .dropdown {
