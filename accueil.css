@@ -398,6 +398,7 @@
 
 .sub-dropdown-content {
   display: none;
+  position: absolute;
   margin-left: 90px;
   margin-top: -24px;
   width: 140px;
