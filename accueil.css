@@ -202,14 +202,17 @@
     display: block;
   }
 
-  .sub-dropdown-content {
-    display: none;
-    margin-left: 90px;
-    margin-top: -24px;
-    width: 140px;
-    background-color:rgb(231,45,118);
-    border-radius:0px 4px 4px 4px;
-  }
+      .sub-dropdown-content {
+        display: none;
+        position: absolute; /* Utilisez une position absolue sur le sous-menu déroulant */
+        background-color: rgb(231,45,118);
+        width: 140px;
+        border-radius: 0px 4px 4px 4px;
+        margin-left: 50px; /* Ajustez la position horizontale selon vos besoins */
+        margin-top: -5px;
+        top: 0; /* Placez le sous-menu déroulant à la même hauteur que l'élément parent */
+        left: 100%; /* Placez le sous-menu déroulant à droite de l'élément parent */
+      }
 
   .sub-dropdown:hover .sub-dropdown-content {
     display: block;
@@ -330,18 +333,6 @@
       .sub-dropdown {
         position: relative; /* Utilisez une position relative sur le sous-menu déroulant */
         display: inline-block;
-      }
-      
-      .sub-dropdown-content {
-        display: none;
-        position: absolute; /* Utilisez une position absolue sur le sous-menu déroulant */
-        background-color: rgb(231,45,118);
-        width: 140px;
-        border-radius: 0px 4px 4px 4px;
-        margin-left: 50px; /* Ajustez la position horizontale selon vos besoins */
-        margin-top: -5px;
-        top: 0; /* Placez le sous-menu déroulant à la même hauteur que l'élément parent */
-        left: 100%; /* Placez le sous-menu déroulant à droite de l'élément parent */
       }
 
           /* Ajoutez ces styles CSS */
