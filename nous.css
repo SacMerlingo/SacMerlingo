@@ -279,6 +279,7 @@ margin-right: 70px;
     .dropdown {
       position: relative; /* Utilisez une position relative sur l'élément parent */
       display: inline-block;
+            z-index: 10;
     }
     
     .dropdown-content {
